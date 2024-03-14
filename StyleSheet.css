@@ -1,0 +1,201 @@
+﻿body {
+    background-color: #F5F5F7;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: inherit padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+    li a {
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: Century Gothic;
+    }
+
+
+a {
+    font-family: Papyrus;
+}
+
+h1 {
+    color: black;
+    font-family: 'Century Gothic';
+    margin: 60px;
+    font-size: 45px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-family: Century Gothic;
+    color: #A9A9A9;
+    font-size: 27px;
+    text-decoration-line: overline;
+    margin: 3px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    margin-top: 10px;
+    color: black;
+    font-family: Century Gothic;
+    margin: 20px;
+    padding-left: 70px;
+    padding-top: 10px;
+
+}
+
+
+p {
+    color: #6E6E73;
+    font-size: 20px;
+    margin: 10px;
+    font-family: Century Gothic;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+#p1 {
+    color: #6E6E73;
+    font-size: 18px;
+    margin: 10px;
+    font-family: Century Gothic;
+    padding-left: 30px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+}
+
+
+h4 {
+    color: #101010;
+    margin: 8px;
+    font-size: 6px;
+}
+
+#box {
+    background: white;
+    border-radius: 25px;
+    margin: 20px;
+    display: block;
+    padding: 5px;
+    box-shadow: 5px 5px 5px 5px lightblue;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+#image-1 {
+    float: right;
+    padding-right: inherit;
+    padding: 10px;
+}
+
+#links {
+    width: 500px;
+    padding-bottom: 30px;
+}
+
+#tech {
+    padding: 20px;
+    width: 150px;
+    padding-bottom: 30px;
+}
+
+#footer{
+    padding: 20px;
+}
+
+* {
+    box-sizing: border-box
+}
+
+
+.mySlides {
+    display: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+#inner-box {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+    .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+    }
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+    .active, .dot:hover {
+        background-color: #717171;
+    }
+
+
+@media only screen and (max-width: 300px) {
+    .prev, .next, .text {
+        font-size: 11px
+    }
+}
